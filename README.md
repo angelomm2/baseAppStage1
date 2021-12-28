@@ -8,7 +8,7 @@ Base app - backend
 4.0
 
 # requirements 
-djangorestframework
+djangorestframework,
 psycopg2 python module requiered for postgres
 
 # validate django version
