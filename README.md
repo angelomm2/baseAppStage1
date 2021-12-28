@@ -7,9 +7,9 @@ Base app - backend
 # version django
 4.0
 
-# install djangorestframework
-
-# install psycopg2 python module requiered for postgres
+# requirements 
+djangorestframework
+psycopg2 python module requiered for postgres
 
 # validate django version
 python3 -c "import django; print(django.get_version())"
@@ -18,10 +18,10 @@ python3 -c "import django; print(django.get_version())"
 USE_TZ = False  # change if needed
 TIME_ZONE = 'UTC'
 
-#code language(settings.py)
+# code language(settings.py)
 LANGUAGE_CODE = 'en-us'  # change if needed
 
-#set config for password validation(settings.py)
+# set config for password validation(settings.py)
 AUTH_PASSWORD_VALIDATORS = [  # set as preferred
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
