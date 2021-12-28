@@ -9,7 +9,7 @@ Base app - backend
 
 # requirements 
 djangorestframework,
-psycopg2 python module requiered for postgres
+psycopg2 python module requiered for postgreSql
 
 # validate django version
 python3 -c "import django; print(django.get_version())"
