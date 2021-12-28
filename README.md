@@ -49,3 +49,5 @@ DATABASES = {
     }
 }
 
+# views.py
+handler controller for classes, example: authentication class
